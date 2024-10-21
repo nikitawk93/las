@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/* Window and Body Styles */
+
+html {
+   background-color:#8c9380;
+}
+
+body {
+    background-color: #fff8eb;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    color: #2A380E;
+    opacity: 0.71;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #2A380E;
+    opacity: 0.71;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: 25px;
+}
+
+h3 {
+    color: #bc8034;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+p {
+    color: #2A380E;
+    opacity: 0.71;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 1.3;
+}
+
+blockquote {
+    color: #2A380E;
+    opacity: 0.71;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-style: italic;
+}
+
+p.footnote {
+    color: #2A380E;
+    opacity: 0.71;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/* Page Header Styles */
+
+    body > header {
+        background-color: #fff8eb;
+    }
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+    background-color:  #fff8eb;  
+    font-size: 1em;
+    padding: 10px 0;
+    text-align: center;     
+ }
+ 
+ nav.horizontal ul.row a:link, nav.horizontal a:visited {
+     color: #bc8034;
+ }
+ 
+ nav.horizontal ul.row a:hover, nav.horizontal a:active {
+     color: #8c9380;
+ }
+
+div.issuemenu {
+    color: #bc8034;
+}
+
+/* Annotation Link Styles */
+
+.note a:link, .note a:visited {
+    color: #2A380E;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
+.note a:hover, .note a:active {
+    color: #bc8034;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
+.footnote a {
+    color: #2A380E;
+    text-decoration: none;
+}
+
+.footnote a:link, .note a:visited {
+    color: #2A380E;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
+.footnote a:hover, .note a:active {
+    color: #bc8034;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
+/* Home Styles */
+
+ul#issue {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Testimonials Styles */
+
+ul#testimonial {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* FAQ Styles */
+
+ol#faq {
+    color: #2A380E;
+    opacity: 0.71;
+    padding-left: 25px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol#faq li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+ol#faq a:link, ol#faq a:visited {
+    color: #2A380E;
+    opacity: 0.71;
+}
+
+ol#faq a:hover, ol#faq a:active {
+    color: #bc8034;
+}
+
+/* Editor Styles */
+
+figure {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
+    text-align: center;
+}
+
+figure#wedding {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    text-align: center;
+}
+
+figcaption#editor {
+    float: left;
+    color: #2A380E;
+    opacity: 0.71;
+    padding-top: 10px;
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+figcaption#illustration {
+    color: #2A380E;
+    opacity: 0.71;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+/* Index Styles */
+
+h3#begin {
+    color: #bc8034;
+    padding: 25px;
+}
+
+/* Bibliography Styles */
+
+.citation a:link, .citation a:visited {
+    color: #2A380E;
+    text-decoration: none;
+}
+
+.citation a:hover, .citation a:active {
+    color: #bc8034;
+    text-decoration: none;
+}
+
+h3#citation {
+    color: #bc8034;
+    padding: 25px;
+}
+
+/* Illustration Styles */
+
+
+
+/* Footer Styles */
+
+footer {
+    color: #bc8034;
+    background-color: #fff8eb;
+    font-size: 1em;
+    padding: 10px 10px;
+    text-align: center;
+}

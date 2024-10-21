@@ -1,0 +1,127 @@
+﻿@charset "utf-8";
+
+/* Window and Body Styles */
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, ul, nav, li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Row Styles */
+
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Column Styles */
+
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+/* Hanging Indent Styles */
+
+div.citation p {
+    text-indent: -36px;
+    padding-left: 36px;
+}
+
+p#entry {
+    padding-top: 15px;
+}
+
+/* Page Header Styles */
+
+body > header > img {
+  display: block;
+  width: 100%;
+}
+
+body > img {
+    display: block;
+    width: 100%;
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal li {
+    display: block;
+    width: 16.667%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+}
+
+/* Home Styles */
+
+ul#issue li {
+    display: block;
+    width: 47%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+ul#issue li img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#link {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Illustration Styles */
+
+img#illustration {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Testimonals Styles */
+
+ul#testimonial li {
+    display: block;
+    width: 22%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+ul#testimonial li img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+/* Footer Styles */
+
+footer {
+  clear: both;
+}
