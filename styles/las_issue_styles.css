@@ -198,6 +198,20 @@ figcaption#illustration {
     text-align: center;
 }
 
+/* UPDATE: link style in editor page */
+
+.editor a:link, .editor a:visited {
+    color: #2A380E;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
+.editor a:hover, .editor a:active {
+    color: #bc8034;
+    opacity: 0.71;
+    text-decoration: none;
+}
+
 /* Index Styles */
 
 h3#begin {
