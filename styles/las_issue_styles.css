@@ -200,13 +200,13 @@ figcaption#illustration {
 
 /* UPDATE: link style in editor page */
 
-.editor a:link, .editor a:visited {
+#editor a:link, #editor a:visited {
     color: #2A380E;
     opacity: 0.71;
     text-decoration: none;
 }
 
-.editor a:hover, .editor a:active {
+#editor a:hover, #editor a:active {
     color: #bc8034;
     opacity: 0.71;
     text-decoration: none;
